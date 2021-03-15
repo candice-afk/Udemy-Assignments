@@ -1,0 +1,35 @@
+/** 
+Candice Carter
+March 14th, 2021
+Cosc 220*/
+
+/*   This program checks if a number from user input is even or odd   */
+
+import java.util.Scanner;
+
+public class oddEven
+{
+     public static void main (String []args)
+     {
+     
+     //Create a scanner object
+     Scanner keyboard = new Scanner(System.in);
+     
+     //Get user input
+     System.out.println("Enter an integer.");
+     
+     short userValue = keyboard.nextShort();
+     
+     //Checks user input is even it's divisble by 2 without a remainder
+     if(userValue / 2 == 0){
+          System.out.println("The number " + userValue + " is even.");
+     
+     //Checks user input is odd if it's left with a remainder      
+     }else if (userValue / 2 != 0){
+          System.out.println("The number " + userValue + " is not even."
+               +"\nIt is odd.");
+     
+          }
+     
+     }
+}

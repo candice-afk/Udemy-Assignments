@@ -1,0 +1,30 @@
+/** 
+Candice Carter
+March 13th, 2021
+Cosc 220*/
+
+/*   This program checks if the variable is true or false in if statements*/
+
+public class IfStatements
+{
+     public static void main(String[] args)
+     {
+     
+     //Variable sum initialized to 100
+     byte sum = 100;
+     
+     //Displays this message if sum is greater than 100
+     if(sum > 100){
+          System.out.println("Sum is greater than 100");
+          
+          //Displays this message if sum is less than 100 
+     }    else if (sum < 100){
+               System.out.println("Sum is less than 100");
+               
+          //Displays this message if sum is equal to 100     
+     }    else {
+               System.out.println("Value is 100");    
+     
+          }
+     }
+}

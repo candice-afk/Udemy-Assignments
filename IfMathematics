@@ -1,0 +1,43 @@
+/** 
+Candice Carter
+March 13th, 2021
+Cosc 220*/
+
+/*   This program adds and subtracts 2 numbers based on user's input of a plus or minus symbol. */
+
+import java.util.Scanner;
+
+public class IfMathematics
+{
+     public static void main(String []args)
+     {
+     
+     // Create scanner object
+     Scanner keyboard = new Scanner(System.in);
+     
+     //Get user input for a plus or minus sign
+     System.out.println("Please enter a + or a - .");
+     
+     String sign = keyboard.nextLine();
+     
+     //Get user input for two numbers  
+     int firstValue = keyboard.nextInt();
+     
+     int secondValue = keyboard.nextInt();
+          
+          //addition of user input when symbol is equal to +
+          if(sign.equals("+")){
+               System.out.println("The addition of: " + firstValue + " " +
+                    secondValue + " is " +(firstValue + secondValue) + ".");
+          
+          //subtraction of user input when symbol is equal to -          
+          }else if(sign.equals("-")) {
+               System.out.println("The subtraction of: " + firstValue + " " +
+                    secondValue + " is " +(firstValue - secondValue) n+ "."); 
+         
+          //Error for incorrect symbol from user         
+          }else {
+               System.out.println("Incorrecct sign: you need to enter a + or a -");
+          }    
+     }
+}
